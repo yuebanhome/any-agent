@@ -1,7 +1,6 @@
 ---
 name: agent-sdk-advanced
 description: "Use when the user asks about Agent SDK permissions, canUseTool callback, permission modes, hooks system, PreToolUse/PostToolUse, custom subagents, agent definitions, structured output, outputFormat, sandbox configuration, budget controls, maxTurns, file checkpointing, or thinking/effort configuration."
-version: 1.0.0
 ---
 
 # Claude Agent SDK — Advanced Features

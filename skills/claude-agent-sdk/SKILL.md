@@ -1,7 +1,6 @@
 ---
 name: claude-agent-sdk
 description: "Use when the user asks about the Claude Agent SDK, mentions @anthropic-ai/claude-agent-sdk, wants to build a programmatic agent with Claude Code, asks about query(), discusses embedding Claude Code in an application, or wants to understand how to use the Agent SDK. This is the entry point for Agent SDK development."
-version: 1.0.0
 ---
 
 # Claude Agent SDK

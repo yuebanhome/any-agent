@@ -1,7 +1,6 @@
 ---
 name: agent-sdk-sessions
 description: "Use when the user asks about session management, resuming conversations, multi-turn interactions, conversation history, the V2 session API, listSessions, forkSession, or managing persistent agent conversations with the Claude Agent SDK."
-version: 1.0.0
 ---
 
 # Claude Agent SDK — Sessions

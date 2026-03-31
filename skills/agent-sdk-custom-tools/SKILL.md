@@ -1,7 +1,6 @@
 ---
 name: agent-sdk-custom-tools
 description: "Use when the user asks about adding custom tools to a Claude agent, mentions createSdkMcpServer, tool() helper, MCP tools integration, in-process tools, connecting external MCP servers to the Agent SDK, or wants to extend agent capabilities with custom functions."
-version: 1.0.0
 ---
 
 # Custom Tools for the Claude Agent SDK
