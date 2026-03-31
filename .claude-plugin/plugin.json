@@ -1,0 +1,7 @@
+{
+  "name": "agent-sdk-guide",
+  "description": "Skills for understanding and building with @anthropic-ai/claude-agent-sdk — covers query(), custom tools, sessions, permissions, hooks, and advanced patterns.",
+  "author": {
+    "name": "hwy"
+  }
+}
