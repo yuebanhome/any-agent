@@ -1,6 +1,6 @@
 {
   "name": "any-agent",
-  "description": "A collection of Claude Code skills including Agent SDK guides and session knowledge harvesting tools.",
+  "description": "A collection of Claude Code plugins including Agent SDK development guides and session knowledge harvesting tools.",
   "owner": {
     "name": "hwy"
   },
@@ -8,12 +8,12 @@
     {
       "name": "agent-sdk-guide",
       "description": "Skills for understanding and building with @anthropic-ai/claude-agent-sdk — covers query(), custom tools, sessions, permissions, hooks, and advanced patterns.",
-      "source": "./"
+      "source": "./plugins/agent-sdk-guide"
     },
     {
       "name": "session-harvest",
       "description": "Capture and convert knowledge learned during a Claude Code session into reusable skills. Reviews conversation history, extracts valuable workflows and patterns, and invokes skill-creator to generate formal skills.",
-      "source": "./"
+      "source": "./plugins/session-harvest"
     }
   ]
 }
