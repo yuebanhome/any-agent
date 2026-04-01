@@ -25,6 +25,14 @@ Capture knowledge from your Claude Code sessions and turn them into reusable ski
 |---|---|
 | **session-harvest** | Review conversation history, extract valuable workflows and patterns, and invoke skill-creator to generate formal skills |
 
+### claude-plugin-marketplace-setup
+
+Guide for creating and organizing Claude Code plugin marketplaces.
+
+| Skill | Description |
+|---|---|
+| **claude-plugin-marketplace-setup** | Covers directory structure, marketplace.json/plugin.json schema, multi-plugin organization, source types, and troubleshooting |
+
 ## Installation
 
 Add this marketplace to Claude Code:

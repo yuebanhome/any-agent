@@ -1,0 +1,7 @@
+{
+  "name": "claude-plugin-marketplace-setup",
+  "description": "Guide for creating and organizing Claude Code plugin marketplaces — covers directory structure, marketplace.json/plugin.json schema, multi-plugin organization, and validation.",
+  "author": {
+    "name": "hwy"
+  }
+}
