@@ -1,8 +1,14 @@
-# agent-sdk-guide
+# any-agent
 
-A Claude Code plugin providing model-invoked skills for understanding and building with `@anthropic-ai/claude-agent-sdk`.
+A Claude Code plugin marketplace — a collection of practical skills to enhance your Claude Code experience.
 
-## Skills
+[中文文档](README_CN.md)
+
+## Plugins
+
+### agent-sdk-guide
+
+Skills for understanding and building with `@anthropic-ai/claude-agent-sdk`.
 
 | Skill | Description |
 |---|---|
@@ -11,28 +17,40 @@ A Claude Code plugin providing model-invoked skills for understanding and buildi
 | **agent-sdk-sessions** | Session management, multi-turn conversations, V2 API, query control methods |
 | **agent-sdk-advanced** | Permissions, hooks, subagents, structured output, sandbox, budget controls, thinking/effort |
 
+### session-harvest
+
+Capture knowledge from your Claude Code sessions and turn them into reusable skills.
+
+| Skill | Description |
+|---|---|
+| **session-harvest** | Review conversation history, extract valuable workflows and patterns, and invoke skill-creator to generate formal skills |
+
 ## Installation
 
-Add this plugin to Claude Code:
+Add this marketplace to Claude Code:
 
 ```bash
-# From the Claude Code CLI
-/plugin /path/to/this/repo
+claude /plugin yuebanhome/any-agent
 ```
 
-Or add it to your project's `.claude/settings.json`:
+Or add it manually to your `~/.claude/settings.json`:
 
 ```json
 {
-  "plugins": ["/path/to/this/repo"]
+  "plugins": {
+    "marketplaces": ["yuebanhome/any-agent"]
+  }
 }
 ```
 
 ## How it works
 
-These are **model-invoked skills** — Claude automatically activates them when your conversation matches their trigger conditions. For example, asking "how do I use the Claude Agent SDK?" will load the main `claude-agent-sdk` skill, which then routes to specialized skills as needed.
+These are **model-invoked skills** — Claude automatically activates them when your conversation matches their trigger conditions. No manual commands needed for most skills. For example:
+
+- Asking "how do I use the Claude Agent SDK?" activates the `claude-agent-sdk` skill
+- Running `/session-harvest` at the end of a session captures what you learned
 
 ## Related
 
 - [Official Agent SDK docs](https://docs.claude.com/en/api/agent-sdk/overview)
-- [agent-sdk-dev plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/agent-sdk-dev) — scaffolding commands and verification agents (complements this plugin)
+- [agent-sdk-dev plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/agent-sdk-dev) — scaffolding commands and verification agents
