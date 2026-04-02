@@ -38,18 +38,9 @@ Guide for creating and organizing Claude Code plugin marketplaces.
 Add this marketplace to Claude Code:
 
 ```bash
-claude /plugin yuebanhome/any-agent
+> /plugin marketplace add https://github.com/yuebanhome/any-agent.git
 ```
 
-Or add it manually to your `~/.claude/settings.json`:
-
-```json
-{
-  "plugins": {
-    "marketplaces": ["yuebanhome/any-agent"]
-  }
-}
-```
 
 ## How it works
 
