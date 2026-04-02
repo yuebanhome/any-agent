@@ -38,7 +38,7 @@ Guide for creating and organizing Claude Code plugin marketplaces.
 Add this marketplace to Claude Code:
 
 ```bash
-> /plugin marketplace add https://github.com/yuebanhome/any-agent.git
+/plugin marketplace add https://github.com/yuebanhome/any-agent.git
 ```
 
 
