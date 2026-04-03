@@ -53,3 +53,11 @@ These are **model-invoked skills** — Claude automatically activates them when 
 
 - [Official Agent SDK docs](https://docs.claude.com/en/api/agent-sdk/overview)
 - [agent-sdk-dev plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/agent-sdk-dev) — scaffolding commands and verification agents
+
+## Friendly Links
+
+- [linux.do Community Help](https://linux.do/) — Community resources and support
+
+## Built for Claude Code
+
+[![Claude Code](https://img.shields.io/badge/Claude-Code-00A4EF?logo=anthropic)](https://claude.ai/)
